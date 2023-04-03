@@ -1,10 +1,7 @@
 const newNote = document.querySelector(".new-note-btn");
 const main = document.querySelector(".maincontainer");
-const dropNote = document.querySelector(".removeNote");
-
 
 newNote.addEventListener('click', addnote);
-dropNote.addEventListener('click', removeNote);
 
 function addnote(){
     const noteDiv = document.createElement("div");
