@@ -19,9 +19,7 @@ function addnote(){
     noteDiv.querySelector(".removeNote").addEventListener(
         "click", function(){
             noteDiv.classList.add("drop");
-            noteDiv.addEventListener('transitionend', function(){
             noteDiv.remove();
-            });
         }
     )
     main.appendChild(noteDiv);
