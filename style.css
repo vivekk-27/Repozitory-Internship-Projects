@@ -36,11 +36,6 @@ body {
     margin-left: 51px;
 }
 
-.drop{
-  transform: translateY(10rem) rotateZ(40deg);
-  opacity: 0;
-}
-
 #options{
     display: flex;
     justify-content: end;
