@@ -8,7 +8,6 @@ function addnote(){
     noteDiv.classList.add("note");
     noteDiv.innerHTML= `
     <div id="options">
-    <i class="edit fas fa-edit"></i>
     <i class="removeNote fas fa-trash-alt"></i>
     </div>
     <div class="note-body">
